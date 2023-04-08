@@ -1,0 +1,42 @@
+<sciene name="root_selector">
+    <frame id="0"
+		text="ДЕНЬ ХАКАТОНА"
+		owner="protagonist" 
+		background="background"
+		music="none"
+		answers="1"
+	/>
+	<frame id="1"
+		text="Аники: на сегодняшний хакатон нам нужно написать небольшое приложение, и показать готовый к работе прототип"
+		person1="aniki"
+		owner="person1" 
+		answers="2"
+	/>
+	<frame id="2"
+		text="Аники: времени даётся 6 часов, можно объединяться в команды по желанию, готовые проекты будут сравниваться в конце"
+		person1="aniki"
+		owner="person1" 
+		answers="3"
+	/>
+	<frame id="3"
+		text="Аники: Как-то так. Ну что, без дальнейших проволочек, время праздновать, и написать немного кода!"
+		person1="aniki"
+		owner="person1" 
+		answers="4 5 6"
+	/>
+	<frame id="4"
+		text="Объединиться в команду со Славиком и Аники"
+		owner="protagonist" 
+		nextSciene="hakathon_friends"
+	/>
+	<frame id="5"
+		text="Объединиться в команду с Викой"
+		owner="protagonist" 
+		nextSciene="hakathon_vika"
+	/>
+	<frame id="6"
+		text="Работать самостоятельно"
+		owner="protagonist" 
+		nextSciene="hakathon_leto"
+	/>
+</sciene>
